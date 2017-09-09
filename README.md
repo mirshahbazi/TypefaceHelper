@@ -111,12 +111,18 @@ public class MyActivity extends Activity {
 ```
 
 ## Download
-
+#First add this code:
+	allprojects {
+		repositories {
+			maven { url 'https://jitpack.io' }
+		}
+	}
+#Secend 
 Gradle:
+	dependencies {
+	        compile 'com.github.mirshahbazi:TypefaceHelper:1.2.1'
+	}
 
-```
-compile 'com.drivemode:TypefaceHelper:1.2.0@aar'
-```
 
 ## License
 
