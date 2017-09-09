@@ -110,19 +110,21 @@ public class MyActivity extends Activity {
 }
 ```
 
-## Download
-#First add this code:
-	allprojects {
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
-	}
-#Secend 
-Gradle:
+## Using with gradle
+- Add the JitPack repository to your root build.gradle:
+```gradle
+repositories {
+    maven { url "https://jitpack.io" }
+}
+```
+
+- Add the dependency to your sub build.gradle:
+```gradle
 	dependencies {
 	        compile 'com.github.mirshahbazi:TypefaceHelper:1.2.1'
 	}
 
+```
 
 ## License
 
